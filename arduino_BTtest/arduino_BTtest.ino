@@ -3,7 +3,7 @@
 Servo myservo1;
 Servo myservo2;
 void setup() {
-  Serial.begin(38400);
+  Serial.begin(9600);
   myservo1.attach(3); // Servo1 pin = 3
   myservo2.attach(9); // Servo2 pin = 9
 }
