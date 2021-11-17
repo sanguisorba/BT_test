@@ -9,8 +9,8 @@ void setup() {
   SerialBT.begin("ESP32_TEST");
   myservo1.attach(13); // Servo1 pin = 13
   myservo2.attach(12); // Servo2 pin = 12
-  myservo1.write(90);
-  myservo2.write(90);
+//  myservo1.write(90);
+//  myservo2.write(90);
 }
  
 void loop() {
